@@ -1,0 +1,22 @@
+###
+### Name: Smaller viewmodels
+### Version: 1.0
+### Author: Kvux ᴞ
+### Categories: ui/gameplay
+###
+### License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+### License URL: https://creativecommons.org/licenses/by-sa/4.0/
+###
+
+###
+### Special credits to Apocalyptech.
+###
+
+# Default
+SparkPatchEntry,(1,1,0,),/Game/GameData/Camera/CameraMode_Default.CameraMode_Default:Behaviors_CameraBehavior_DefaultViewWeaponOffset,LocationOffset,0,,(x=15,y=15)
+
+# Sliding
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/_Design/Sliding/CameraMode_Slide.CameraMode_Slide:Behaviors_CameraBehavior_DefaultViewWeaponOffset,LocationOffset,0,,(x=15,y=15)
+
+# Downstate
+SparkPatchEntry,(1,1,0,),/Game/GameData/Camera/CameraMode_DownState.CameraMode_DownState:Behaviors_CameraBehavior_DefaultViewWeaponOffset,LocationOffset,0,,(x=15,y=15)
